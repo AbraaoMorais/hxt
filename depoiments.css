@@ -1,0 +1,194 @@
+
+/* 
+Developed by: Rocky.ag
+Dev: Abraão Morais 
+*/
+
+.wrapp_depoiments{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.wrapp_depoiments > h2{
+    font-size: 28pt;
+    font-weight: 700;
+    text-rendering: optimizeLegibility;
+    text-align: center;
+    color: #015c1a;
+    margin-top: 2%;
+    margin-bottom: 0px;
+}
+
+.wrapp_depoiments p{
+   font-size: 16px;
+   font-weight: 500;
+   text-rendering: optimizeLegibility;
+   text-align: center;
+   color: #4c4c4c;
+    margin-bottom: 2%;
+}
+
+.cards_container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.card_client{
+    min-height: 320px;
+    display: flex;
+    flex-direction: column;
+    margin: 6px;
+    position: relative;
+    box-shadow: 0 5px 1em darkgrey;
+}
+
+
+.header_card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.header_card svg{
+    display: flex;
+    justify-content: start;
+    border-radius: 50%;
+    /* border: 2px solid #00a24d; */
+    width: 25%;
+    height: auto;
+    fill: #378548;
+    
+    
+}
+
+.wrapp_client_infor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+     margin: 0px 0px 0px 15px;
+}
+h3.client_name{
+    font-size: 18pt;
+    color: #4c4c4c;
+    margin: 0px;
+}
+.wrapp_client_infor p{
+    text-align: start;   
+     margin: 0px;
+     color: #399c60;
+}
+
+.client_avaliation{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.client_depoiment p{
+    height: 100px;
+    text-rendering: optimizeLegibility;
+    text-align: center;
+    font-weight: 400;
+    line-height: 1.3em;
+    margin-top: 10px;
+    padding: 0px 10px;
+    overflow: hidden auto; 
+}
+
+.aspas_icon{
+    display: flex;
+    justify-content: flex-end;
+    text-align: end;
+    margin-top: -16px;
+}
+
+/* controladores da paginação dos cards de depoimentos */
+/* .cards_pagination{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5%;
+    margin-bottom: 3%;
+}
+input.pageControl{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(167, 164, 164);
+    margin-left: 6px;
+}
+
+
+input.pageControl:hover{
+    cursor: pointer;
+    border: none;
+    background-color: rgb(6, 129, 16);
+}
+
+input.pageControl_active{
+    background-color: rgb(6, 129, 16);
+} */
+
+/* FIM controladores da paginação dos cards de depoimentos */
+
+/* ANIMAÇÃO DO CARROESSEL */
+
+/* @keyframes slideOut{
+    0%{  
+        transform: translateX(0vw); 
+    }
+    100%{ 
+        transform: translateX(-78vw);
+    }
+ 
+}
+@keyframes slideIn{
+    0%{ 
+        transform: translateX(-79vw); 
+        
+    }
+    100%{
+        transform: translateX(3vw);
+
+    }
+
+} */
+
+
+/* scrollbar theme  */
+.card_client ::-webkit-scrollbar {
+    width:5px;
+    height: auto;
+}
+ 
+.card_client ::-webkit-scrollbar-track {
+    background:#333;
+}
+ 
+.card_client ::-webkit-scrollbar-thumb {
+    background: #019e4d;
+}
+
+@media only screen and (max-width: 1024px) {
+    
+    .card_client{
+        min-width: 95%;
+        min-height: 300px;
+        margin: 20px 10px 20px 10px;
+        padding: 10px;
+        box-shadow: 0px 5px 0.3em darkgrey;
+
+    }
+    /* .cards_pagination{
+        display: none;
+    } */
+
+}

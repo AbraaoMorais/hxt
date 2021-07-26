@@ -35,9 +35,13 @@ Dev: Abraão Morais
     height: auto;
     margin: 0 auto;
     overflow: hidden;
-    padding: 10px 70px;
+    padding: 10px;
 }
-
+@media screen and (min-width: 1024px){
+.cards_container{
+    padding: 10px 70px;
+ }
+}
 .card_client{
     position: relative;
     top: 20px;

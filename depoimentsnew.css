@@ -10,13 +10,14 @@ Dev: Abraão Morais
     height: auto;
 }
 .wrapp_depoiments > h2{
-    font-size: 28pt;
-    font-weight: 700;
+    font-size: 24pt;
+    font-weight: 800;
     text-rendering: optimizeLegibility;
     text-align: center;
     color: #015c1a;
     margin-top: 2%;
     margin-bottom: 0px;
+    padding: 10px;
 }
 
 .wrapp_depoiments p{
@@ -25,7 +26,8 @@ Dev: Abraão Morais
    text-rendering: optimizeLegibility;
    text-align: center;
    color: #4c4c4c;
-    margin-bottom: 2%;
+   margin-bottom: 2%;
+   padding: 10px; 
 }
 
 .cards_container{
@@ -36,11 +38,6 @@ Dev: Abraão Morais
     margin: 0 auto;
     overflow: hidden;
     padding: 10px;
-}
-@media screen and (min-width: 1024px){
-.cards_container{
-    padding: 10px 70px;
- }
 }
 .card_client{
     position: relative;
@@ -129,3 +126,18 @@ h3.client_name{
     background: #019e4d;
 }
 
+@media screen and (min-width: 1024px){
+  .wrapp_depoiments > h2{
+    font-size: 28pt;
+    font-weight: 800;
+    text-rendering: optimizeLegibility;
+    text-align: center;
+    color: #015c1a;
+    margin-top: 2%;
+    margin-bottom: 0px;
+    padding: 10px;  
+}
+    .cards_container{
+    padding: 10px 70px;
+ }
+}
